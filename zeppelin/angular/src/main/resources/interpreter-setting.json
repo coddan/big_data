@@ -1,0 +1,24 @@
+[
+  {
+    "group": "angular",
+    "name": "angular",
+    "className": "org.apache.zeppelin.angular.AngularInterpreter",
+    "properties": {
+    },
+    "editor": {
+      "editOnDblClick": true,
+      "completionSupport": false
+    }
+  },
+  {
+    "group": "angular",
+    "name": "ng",
+    "className": "org.apache.zeppelin.angular.AngularInterpreter",
+    "properties": {
+    },
+    "editor": {
+      "editOnDblClick": true,
+      "completionSupport": false
+    }
+  }
+]

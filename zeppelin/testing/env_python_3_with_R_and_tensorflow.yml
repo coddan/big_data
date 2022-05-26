@@ -1,0 +1,36 @@
+name: python_3_with_R_and_tensorflow
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pycodestyle
+  - scipy
+  - numpy=1.19.5
+  - grpcio
+  - protobuf
+  - pandasql
+  - ipython
+  - ipython_genutils
+  - ipykernel
+  - jupyter_client=5
+  - hvplot
+  - plotnine
+  - seaborn
+  - bokeh
+  - intake
+  - intake-parquet
+  - intake-xarray
+  - altair
+  - vega_datasets
+  - plotly
+  - pip
+  - r-base=3
+  - r-data.table
+  - r-evaluate
+  - r-base64enc
+  - r-knitr
+  - r-ggplot2
+  - r-irkernel
+  - r-shiny
+  - r-googlevis
+  - tensorflow=1.13

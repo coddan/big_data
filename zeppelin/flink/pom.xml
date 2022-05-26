@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Licensed to the Apache Software Foundation (ASF) under one or more
+  ~ contributor license agreements.  See the NOTICE file distributed with
+  ~ this work for additional information regarding copyright ownership.
+  ~ The ASF licenses this file to You under the Apache License, Version 2.0
+  ~ (the "License"); you may not use this file except in compliance with
+  ~ the License.  You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>zeppelin-interpreter-parent</artifactId>
+        <groupId>org.apache.zeppelin</groupId>
+        <version>0.10.2-SNAPSHOT</version>
+        <relativePath>../zeppelin-interpreter-parent/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>flink-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>Zeppelin: Flink Parent</name>
+    <description>Zeppelin Flink Support</description>
+
+    <modules>
+        <module>flink-scala-parent</module>
+        <module>flink-scala-2.11</module>
+        <module>flink-scala-2.12</module>
+        <module>flink-shims</module>
+        <module>flink1.10-shims</module>
+        <module>flink1.11-shims</module>
+        <module>flink1.12-shims</module>
+        <module>flink1.13-shims</module>
+        <module>flink1.14-shims</module>
+    </modules>
+
+    <properties>
+        <flink1.10.version>1.10.3</flink1.10.version>
+        <flink1.11.version>1.11.3</flink1.11.version>
+        <flink1.12.version>1.12.4</flink1.12.version>
+        <flink1.13.version>1.13.2</flink1.13.version>
+        <flink1.14.version>1.14.0</flink1.14.version>
+
+        <flink.scala.version>2.11.12</flink.scala.version>
+        <flink.scala.binary.version>2.11</flink.scala.binary.version>
+    </properties>
+
+</project>
